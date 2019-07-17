@@ -134,6 +134,87 @@ html,
 body {
   height: 100%;
 }
-p {
-  background-color: red;
+header {
+  background-color: deepskyblue;
+  width: 100%;
+}
+header nav {
+  padding: 40px auto;
+  display: flex;
+  justify-content: flex-end;
+}
+header a {
+  padding: 20px;
+}
+header a:last-child {
+  padding-right: 55px;
+}
+div.top-box-content {
+  background: mintcream;
+  margin: 5%;
+  display: flex;
+  border: 2px solid powderblue;
+}
+div.top-box-content img {
+  width: 20%;
+  height: auto;
+  border: 2px solid powderblue;
+  border-right: 4px solid powderblue;
+}
+div.top-box-content .top-box-content-text {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+div.middle-box-content {
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div.middle-box-content .middle-box {
+  width: 50%;
+  background: red;
+}
+div.bottom-box-content {
+  margin: 5%;
+}
+div.bottom-box-content .Job-History {
+  display: flex;
+}
+div.bottom-box-content .grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+  padding-right: 2%;
+}
+div.bottom-box-content .grid h4 {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+div.bottom-box-content .grid p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+div.bottom-box-content #first {
+  padding-top: 16px;
+  margin-top: 2px;
+}
+div.bottom-box-content #second {
+  padding-top: 16px;
+  margin-top: 2px;
+}
+div.bottom-box-content #third {
+  padding-top: 16px;
+  margin-top: 2px;
+}
+footer {
+  background-color: deepskyblue;
+  padding: 2%;
+}
+footer p {
+  width: 100%;
+  text-align: center;
+  padding: 0% auto;
 }
